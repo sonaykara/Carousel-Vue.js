@@ -5,14 +5,12 @@
 </template>
 
 <script>
-import Carousel from "./components/CarouselComponent.vue"
-  export default {
-    components: {
-      Carousel 
-    }
-  }
+import Carousel from "./components/CarouselComponent.vue";
+export default {
+  components: {
+    Carousel,
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

@@ -1,11 +1,11 @@
 <template>
   <div>
-    <carousel-slide :carouselItems = "carouselItems"></carousel-slide>
+    <carousel-slide :carouselItems="carouselItems"></carousel-slide>
   </div>
 </template>
 
 <script>
-import CarouselSlide from "./CarouselSlide.vue"
+import CarouselSlide from "./CarouselSlide.vue";
 import img_1 from "../assets/114-1000x600.jpg";
 import img_2 from "../assets/539-1000x600.jpg";
 import img_3 from "../assets/543-1000x600.jpg";
@@ -54,7 +54,7 @@ export default {
   },
 
   components: {
-   CarouselSlide
+    CarouselSlide,
   },
 };
 </script>

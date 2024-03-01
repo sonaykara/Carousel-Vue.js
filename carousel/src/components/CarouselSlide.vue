@@ -55,54 +55,58 @@ export default {
         this.carouselItems.length;
     },
   },
+
+  mounted() {
+    setInterval(this.nextItem, 2000);
+  },
 };
 </script>
 
 <style scoped>
 .carousel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .carousel-area {
-    position: relative;
-  }
-  
-  .information-area {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: 2rem;
-    color: #374956;
-  }
-  
-  .information-area p {
-    font-size: 2rem;
-    color: #4e88b1;
-  }
-  
-  .btn-area {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .btn {
-    display: flex;
-    gap: 56rem;
-  }
-  
-  i {
-    font-size: 2rem;
-    color: #4e88b1;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-area {
+  position: relative;
+}
+
+.information-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  color: #374956;
+}
+
+.information-area p {
+  font-size: 2rem;
+  color: #4e88b1;
+}
+
+.btn-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  display: flex;
+  gap: 56rem;
+}
+
+i {
+  font-size: 2rem;
+  color: #4e88b1;
+}
 </style>
