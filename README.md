@@ -1,4 +1,4 @@
-# Coursel-Vue.js
+# Carousel-Vue.js
 This is a Carousel project built using Vue.js.
 This project showcases a Carousel component developed with Vue.js, allowing users to navigate through a collection of images or items.
 
